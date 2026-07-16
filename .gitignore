@@ -3,8 +3,11 @@
 !.gitignore
 
 __pycache__
-outputs
+outputs*/
 *data*/
+!data_processing/
+!data_processing/*.py
+outputs_stats/*_parts/
 sft-backup
 cos_snapshot
 coscli
